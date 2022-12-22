@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  background-color: antiquewhite;
+}
+
+.App {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  margin: 50px;
+}
+
+.containerTop {
+  margin-inline: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.row > * {
+  width: 20vw;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col > span {
+  margin-bottom: 10px;
+}
+
+.col > button {
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .row {
+    flex-direction: column;
+  }
+  .row > * {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .row > * {
+    width: 100%;
+  }
+}
+
+.footer {
+  margin-left: 50px;
+  font-size: 1.4rem;
+}

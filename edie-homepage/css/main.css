@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding-top: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 > a {
+  text-decoration: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  color: #333333;
+  line-height: 1rem;
+  padding-left: 2.5rem;
+  z-index: 51;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  list-style: none;
+  color: #333333;
+
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
+}
+
+li > a {
+  color: #333333;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  white-space: nowrap;
+}
+
+li > a:visited {
+  color: #333333;
+}
+
+li > a:hover {
+  color: #8c8c8c;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 790px) {
+  ul {
+    display: none;
+  }
+
+  .show {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    margin: 0;
+    padding: 0;
+    animation: open 0.5s ease-in-out;
+    z-index: 50;
+  }
+
+  @keyframes open {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  h1 {
+    z-index: 51;
+  }
+
+  h1 > a {
+    padding-left: 1rem;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+    font-size: 2rem;
+    padding-right: 1rem;
+
+    z-index: 51;
+  }
+
+  .fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 1rem;
+  }
+
+  .fixed_h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .fixed_nav {
+    padding-bottom: 75px;
+  }
+}

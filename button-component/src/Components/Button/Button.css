@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+button {
+  padding-block: 10px;
+  padding-inline: 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border-width: 0px;
+  box-shadow: rgba(51, 51, 51, 0.2) 0px 2px 3px;
+  background: #e0e0e0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.container {
+  display: flex;
+  direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > * {
+  margin-inline: 5px;
+}
+
+.sm {
+  padding-block: 8px;
+  padding-inline: 16px;
+}
+
+.md {
+  padding-block: 10px;
+  padding-inline: 20px;
+}
+
+.lg {
+  padding-block: 13px;
+  padding-inline: 26px;
+}
+
+.disableShadow {
+  box-shadow: none;
+}
+
+.disabledoutline {
+  border: 1px solid #9e9e9e;
+}
+
+.disabledtext {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.default {
+  background-color: #e0e0e0;
+  color: #3f3f3f;
+}
+
+.default:is(:focus, :hover) {
+  background-color: #aeaeae;
+}
+
+.defaultoutline {
+  border: 1px solid #3f3f3f;
+  color: #3f3f3f;
+}
+
+.defaultoutline:is(:focus, :hover) {
+  background-color: #aeaeae2a;
+}
+
+.defaulttext {
+  box-shadow: none;
+  border: none;
+  color: #3f3f3f;
+  background-color: transparent;
+}
+
+.defaulttext:is(:focus, :hover) {
+  background-color: #aeaeae2a;
+}
+
+.primary {
+  background-color: #2962ff;
+  color: white;
+}
+
+.primary:is(:focus, :hover) {
+  background-color: #0039cb;
+}
+
+.primaryoutline {
+  border: 1px solid #2962ff;
+  color: #2962ff;
+  background-color: white;
+}
+
+.primaryoutline:is(:focus, :hover) {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+.primarytext {
+  box-shadow: none;
+  border: none;
+  color: #2962ff;
+  background-color: transparent;
+}
+
+.primarytext:is(:focus, :hover) {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+.secondary {
+  background-color: #455a64;
+  color: white;
+}
+
+.secondary:is(:focus, :hover) {
+  background-color: #1c313a;
+}
+
+.secondaryoutline {
+  border: 1px solid #455a64;
+  color: #455a64;
+  background-color: white;
+}
+
+.secondaryoutline:is(:focus, :hover) {
+  background-color: #455a6421;
+}
+
+.secondarytext {
+  box-shadow: none;
+  border: none;
+  color: #455a64;
+  background-color: transparent;
+}
+
+.secondarytext:is(:focus, :hover) {
+  background-color: #455a6421;
+}
+
+.danger {
+  background: #d32f2f;
+  color: white;
+}
+
+.danger:is(:focus, :hover) {
+  background-color: #9a0007;
+}
+
+.dangeroutline {
+  border: 1px solid #d32f2f;
+  color: #d32f2f;
+  background-color: white;
+}
+
+.dangeroutline:is(:focus, :hover) {
+  background-color: #d32f2f1f;
+}
+
+.dangertext {
+  box-shadow: none;
+  border: none;
+  color: #d32f2f;
+  background-color: transparent;
+}
+
+.dangertext:is(:focus, :hover) {
+  background-color: #d32f2f1f;
+}

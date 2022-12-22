@@ -1,0 +1,202 @@
+.clients {
+  margin-bottom: 200px;
+}
+
+.clients_flex {
+  display: flex;
+  flex-direction: row;
+  margin-inline: 10vw;
+  height: 650px;
+  align-items: center;
+}
+
+.clients_text {
+  flex-grow: 1;
+}
+
+.clients_text > span {
+  display: block;
+}
+
+.clients_text > span:first-child {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #eb5757;
+  margin-bottom: 1vh;
+}
+
+.clients_text > span:nth-child(2) {
+  width: 300px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+  margin-bottom: 1vh;
+}
+
+.clients_text > span:last-child {
+  width: 300px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+
+.clients_images_grid {
+  display: grid;
+  width: 40%;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1vw;
+}
+
+.clients_images_grid > div {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.client1 {
+  grid-column: 1 / 2;
+  grid-row: span 2;
+}
+
+.client1 > div {
+  background-image: url(../assets/images/person3.png);
+  background-size: cover;
+  border-radius: 24px;
+  height: 320px;
+  width: 320px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.client2 {
+  grid-column: 2 / 2;
+  grid-row: 1 / 2;
+}
+
+.client2 > div {
+  background-image: url(../assets/images/person1.png);
+  background-size: cover;
+  border-radius: 24px;
+  height: 260px;
+  width: 260px;
+  position: absolute;
+  bottom: 0;
+}
+
+.client3 {
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+}
+
+.client3 > div {
+  background-image: url(../assets/images/person2.png);
+  background-size: cover;
+  border-radius: 24px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 0;
+}
+
+.clients_testimonial {
+  margin-top: 190px;
+  margin-inline: 10vw;
+}
+
+.client_quote {
+  display: block;
+  width: 937px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+  margin-bottom: 36px;
+}
+
+.client_details {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.client_avatar {
+  height: 100px;
+  width: 100px;
+  background-image: url(../assets/images/person4.png);
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.client_name_position > span {
+  display: block;
+}
+
+.client_name_position > span:first-child {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+.client_name_position > span:last-child {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #828282;
+}
+
+@media screen and (max-width: 1250px) {
+  .clients {
+    margin-bottom: 100px;
+  }
+
+  .clients_testimonial {
+    margin-inline: 4vw;
+  }
+
+  .client_quote {
+    font-size: 24px;
+    line-height: 36px;
+    width: 90%;
+    margin-bottom: 25px;
+  }
+
+  .clients_flex {
+    flex-direction: column;
+    margin: 0;
+    margin-inline: 4vw;
+    align-items: flex-start;
+    height: 100%;
+  }
+
+  .clients_images_grid {
+    width: 100%;
+    margin-top: 200px;
+  }
+
+  .client1 > div {
+    height: 180px;
+    width: 180px;
+  }
+
+  .client2 > div {
+    height: 145px;
+    width: 145px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .client3 > div {
+    height: 165px;
+    width: 165px;
+    position: absolute;
+    top: 0;
+  }
+}

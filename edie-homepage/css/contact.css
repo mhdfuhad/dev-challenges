@@ -1,0 +1,131 @@
+.contact {
+  margin-left: 20vw;
+  margin-top: 42px;
+}
+
+.contact_text {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  color: #333333;
+}
+
+.contact_text span:first-child {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 42px;
+}
+
+.contact_text span:last-child {
+  font-size: 18px;
+}
+
+.contact_input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+  color: #333333;
+}
+
+.contact_input span:first-child {
+  font-size: 14px;
+  margin-bottom: 9px;
+}
+
+.input_box {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+
+.input_box > input {
+  width: 65%;
+  height: 4rem;
+  border-radius: 12px;
+  border-width: 0;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+}
+
+.input_box > input:focus {
+  outline: none;
+}
+
+.input_box > input::placeholder {
+  color: #bdbdbd;
+  font-size: 1.2rem;
+}
+
+.input_box > button {
+  width: 27%;
+  height: 3.5rem;
+  font-size: 18px;
+  background-color: #2d9cdb;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.input_box > button:hover {
+  background-color: #0087d5;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10vw;
+    margin-top: 2vh;
+  }
+
+  .contact_text {
+    width: 100%;
+  }
+
+  .contact_text span:first-child {
+    font-size: 24px;
+    margin-bottom: 24px;
+    width: 50vw;
+  }
+
+  .contact_text span:last-child {
+    font-size: 12px;
+    width: 70vw;
+  }
+
+  .contact_input {
+    margin: 0;
+    margin-top: 24px;
+  }
+
+  .contact_input span:first-child {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+
+  .input_box {
+    width: 75vw;
+  }
+
+  .input_box > input {
+    width: 70%;
+    height: 2.7rem;
+  }
+
+  .input_box > input::placeholder {
+    font-size: 1rem;
+  }
+
+  .input_box > button {
+    height: 2.3rem;
+    width: 23%;
+    font-size: 12px;
+  }
+}

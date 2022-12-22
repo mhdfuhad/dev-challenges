@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://404-error-challenge-page.netlify.app/">
+    <a href="https://devchallenges.io/solutions/as1UeM4kXYMChwJ8IWhf">
       Solution
     </a>
     <span> | </span>

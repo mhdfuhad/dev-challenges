@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://styled-button-component.netlify.app/">
+    <a href="https://devchallenges.io/solutions/uUmh8UYGkmtEOvJX2Doy">
       Solution
     </a>
     <span> | </span>

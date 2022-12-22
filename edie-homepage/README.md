@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://edie-responsive-landing-page.netlify.app/">
+    <a href="https://devchallenges.io/solutions/bTG4BerMSiy4ejAKIJMc">
       Solution
     </a>
     <span> | </span>

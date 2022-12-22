@@ -28,7 +28,6 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [How To Use](#how-to-use)
 - [Contact](#contact)
 
 ## Overview
@@ -43,18 +42,6 @@
 ## Features
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the given user stories.
-
-## How To Use
-
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/mhdfuhad/edie-homepage
-
-# Run on live server
-```
 
 ## Contact
 - GitHub [@mhdfuhad](https://github.com/mhdfuhad)

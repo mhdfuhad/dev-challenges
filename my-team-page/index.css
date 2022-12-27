@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.text {
+  margin-left: 12px;
+}
+
+h1 {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  max-width: 350px;
+}
+
+.team__pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin: 10px;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.team__pictures img {
+  width: 80%;
+  object-fit: cover;
+}
+
+.position {
+  position: absolute;
+  font-family: "PT Serif";
+  rotate: 90deg;
+  transform-origin: top left;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.emp__name {
+  text-align: start;
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 10%;
+}
+
+.padding {
+  padding-top: 5vh;
+}
+
+@media (width > 768px) {
+  .team__pictures {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .padding {
+    padding-top: 0;
+  }
+
+  .padding__full {
+    padding-top: 5vh;
+  }
+
+  .emp__name {
+    font-size: 1.3em;
+    line-height: 27px;
+  }
+
+  .position {
+    font-size: 1em;
+    line-height: 1em;
+    margin-left: 1.5em;
+  }
+
+  .text {
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+  }
+
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    width: 50%;
+  }
+
+  .partition {
+    width: 50%;
+  }
+}

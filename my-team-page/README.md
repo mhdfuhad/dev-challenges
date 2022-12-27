@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/ixtFEWg9Tzsm3FtL1SrN">
       Solution
     </a>
     <span> | </span>
@@ -30,9 +30,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/77447622/209067609-303a0b0a-3e75-4bda-a11a-c5a9710254d7.png)
-
-
+![screenshot](https://user-images.githubusercontent.com/77447622/209606503-e4a8f6d7-c7af-42b2-82b6-dbf637e46643.png)
 
 ### Built With
 

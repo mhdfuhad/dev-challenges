@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Interior Consultant Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <h1><a href="/">This Interior</a></h1>
+
+          <span class="material-symbols-outlined burger"> menu </span>
+          <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="text__part">
+          <h2>Modern interior</h2>
+          <p class="para__text">
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <span class="read__more">Read more &rarr;</span>
+        </div>
+        <div class="image__part">
+          <img src="photo1.png" alt="image" class="interior__img" />
+          <div class="user__box">
+            <div class="user__">
+              <img src="photo2.png" alt="user" class="user__avatar" />
+              <div class="user__info">
+                <h3>Aliza Webber</h3>
+                <p class="sub">Interior Designer</p>
+              </div>
+            </div>
+            <span class="rev">Designed in 2020 by Aliza Webber</span>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <span style="position: fixed; bottom: 5px; left: 10px; color: gray"
+          >created by <u>mhdfuhad</u> - devChallenges.io</span
+        >
+      </footer>
+    </div>
+    <script>
+      const burger = document.querySelector(".burger");
+
+      burger.addEventListener("click", () => {
+        const ul = document.querySelector("ul");
+        const h1 = document.querySelector("h1");
+        const nav = document.querySelector("nav");
+        ul.classList.toggle("show");
+        burger.innerHTML = ul.classList.contains("show") ? "close" : "menu";
+        burger.classList.toggle("fixed");
+        h1.classList.toggle("fixed_h1");
+        nav.classList.toggle("fixed_nav");
+      });
+
+      const navLinks = document.querySelectorAll("ul li a");
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          const ul = document.querySelector("ul");
+          ul.classList.remove("show");
+          burger.innerHTML = "menu";
+        });
+      });
+    </script>
+  </body>
+</html>

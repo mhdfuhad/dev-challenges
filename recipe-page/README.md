@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://devchallenges.io/solutions/gi2Oq4UxyUGrgi9pZ06z">
       Solution
     </a>
     <span> | </span>
@@ -32,7 +32,8 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/77447622/209606503-e4a8f6d7-c7af-42b2-82b6-dbf637e46643.png)
+![mhdfuhad-recipe-page netlify app_(Full HD Screen)](https://user-images.githubusercontent.com/77447622/209643403-ec67dc1c-9da4-4796-9ee3-54c18ba85f35.png)
+
 
 ### Built With
 

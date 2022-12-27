@@ -116,9 +116,22 @@ ul > li::before {
   color: #333333;
   height: 1.2em;
   width: 1.2em;
+  cursor: pointer;
+}
+
+ul > li:hover::before {
+  border: 1px solid #f2994a;
+  transition: ease-in-out 0.3s;
+  background-color: #f1f1f1;
+}
+
+.active {
+  border: 1px solid #f2994a;
+  background-color: #f1f1f1;
 }
 
 ul > li {
+  cursor: pointer;
   list-style: none;
   font-style: normal;
   font-weight: 400;

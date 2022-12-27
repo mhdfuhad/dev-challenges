@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://mhdfuhad-int-con-challenge.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://devchallenges.io/solutions/S80G4tCY4eot1Wzyqurw">
       Solution
     </a>
     <span> | </span>
@@ -32,8 +32,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/77447622/196013157-1bf14204-ff13-4750-8215-b0990d6a5b7b.png)
-
+![mhdfuhad-int-con-challenge netlify app_(Full HD Screen)](https://user-images.githubusercontent.com/77447622/209623434-27a0394f-30d6-4d00-810a-143f8a5792df.png)
 
 ### Built With
 

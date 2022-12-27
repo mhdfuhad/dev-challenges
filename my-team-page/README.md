@@ -1,5 +1,3 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">My Team Page</h1>
 
 <div align="center">
@@ -8,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://mhdfuhad-teampage-challenge.netlify.app/">
       Demo
     </a>
     <span> | </span>

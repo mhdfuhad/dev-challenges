@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://devchallenges.io/solutions/rhoo8SZiEha9fQoHYael">
       Solution
     </a>
     <span> | </span>
@@ -31,6 +31,7 @@
 - [Contact](#contact)
 
 ## Overview
+![mhdfuhad-my-gallery-challenge netlify app_(Full HD Screen) (2)](https://user-images.githubusercontent.com/77447622/209908925-1a8e3a2e-a868-497f-9507-4ecd4034bd2b.png)
 
 
 ### Built With

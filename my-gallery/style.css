@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.profile_info {
+  width: 100%;
+  text-align: center;
+}
+
+.user_img {
+  width: clamp(130px, 20vw, 220px);
+  border-radius: 16px;
+  margin-top: 4vh;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(16px, 2vw, 24px);
+  line-height: clamp(19px, 2vw, 30px);
+  text-align: center;
+  color: #4e5150;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(12px, 1.5vw, 16px);
+  line-height: clamp(14px, 1.5vw, 20px);
+  text-align: center;
+  color: #a9a9a9;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(13px, 1.5vw, 18px);
+  line-height: clamp(16px, 1.5vw, 22px);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #4e5150;
+}
+
+p {
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  font-size: clamp(14px, 1.5vw, 16px);
+  line-height: clamp(17px, 1.5vw, 20px);
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.profile_stats {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.stat {
+  background: #e5e5e5;
+  border-radius: 12px;
+  width: clamp(75px, 10vw, 100px);
+  padding: 15px 10px;
+}
+
+.profile_images {
+  margin: 50px 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  grid-template-areas:
+    "first-image second-image second-image"
+    "third-image third-image fourth-image"
+    "sixth-image fifth-image fourth-image";
+}
+
+.profile_images img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+.profile_images img:first-child {
+  grid-area: first-image;
+}
+
+.profile_images img:nth-child(2) {
+  grid-area: second-image;
+}
+
+.profile_images img:nth-child(3) {
+  grid-area: third-image;
+}
+
+.profile_images img:nth-child(4) {
+  grid-area: fourth-image;
+}
+
+.profile_images img:nth-child(5) {
+  grid-area: fifth-image;
+}
+
+.profile_images img:nth-child(6) {
+  grid-area: sixth-image;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Card</title>
+  </head>
+  <body>
+    <div class="card">
+      <img src="cactus_img.jpg" alt="cardIMG" />
+
+      <div>
+        <span> Design </span>
+
+        <h2>Embracing Minimalism</h2>
+        <p>
+          From minimalist sculptures to minimalist paintings, this blog will
+          inspire you to appreciate the beauty that lies in simplicity.
+        </p>
+        <h3>Annie Spratt</h3>
+      </div>
+    </div>
+  </body>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: "Sora", sans-serif;
+    }
+
+    .card {
+      box-shadow: 0 30px 100px rgba(0, 0, 0, 0.05);
+      width: 400px;
+
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    img {
+      width: 368px;
+      border-radius: 15px;
+      margin: 16px;
+    }
+
+    span {
+      display: block;
+      width: max-content;
+      font-size: 10px;
+      padding: 6px 16px;
+      background: #e6d6fc;
+      color: #883ae1;
+      font-weight: bold;
+      border-radius: 50px;
+      margin: 16px;
+      margin-top: 0;
+    }
+
+    h2,
+    p,
+    h3 {
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-inline: 16px;
+      margin-bottom: 6px;
+      color: #20293a;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: lighter;
+      margin-bottom: 20px;
+      color: #6c727f;
+      max-width: 330px;
+      line-height: 20px;
+      margin-inline: 16px;
+    }
+
+    h3 {
+      font-size: 12px;
+      font-weight: 500;
+      border-top: 1px solid #e5eaf0;
+      padding-inline: 16px;
+      padding-block: 20px;
+      color: #6c727f;
+    }
+  </style>
+</html>
